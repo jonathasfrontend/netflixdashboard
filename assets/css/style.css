@@ -262,7 +262,7 @@ gradient{
     position: absolute;
     width: 100%;
     height: 100%;
-    background: linear-gradient(0deg, #222222f1 2%, #00000000 20%, #00000000 50%, #00000000 70%, #0000003b 100%);
+    background: linear-gradient(0deg, #000000c0 10%, #00000000 40%, #00000000 50%, #00000000 70%, #0000003b 100%);
 }
 .container .video .play-video{
     position: absolute;
