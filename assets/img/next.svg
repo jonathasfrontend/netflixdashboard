@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   class="ionicon"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="next.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   width="512"
+   height="512"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     id="namedview8"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="1.483267"
+     inkscape:cx="199.55949"
+     inkscape:cy="221.47058"
+     inkscape:window-width="1366"
+     inkscape:window-height="745"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6"
+     height="512px" />
+  <title
+     id="title2">Chevron Forward</title>
+  <path
+     style="fill:#ffffff;stroke:#000000;stroke-width:0.539936px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 200.08053,60.062818 334.7655,231.70275 203.07993,424.45569 154.0553,393.40236 266.52721,232.03375 155.06711,92.443882 Z"
+     id="path945"
+     sodipodi:nodetypes="ccccccc" />
+  <metadata
+     id="metadata1242">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Chevron Forward</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
