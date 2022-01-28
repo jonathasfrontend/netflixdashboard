@@ -262,7 +262,7 @@ gradient{
     position: absolute;
     width: 100%;
     height: 100%;
-    background: linear-gradient(0deg, #000000c0 10%, #00000000 40%, #00000000 50%, #00000000 70%, #0000003b 100%);
+    background: linear-gradient(0deg, #222222dc 10%, #00000000 40%, #00000000 50%, #00000000 70%, #0000003b 100%);
 }
 .container .video .play-video{
     position: absolute;
@@ -277,7 +277,7 @@ gradient{
     position: relative;
     width: 100%;
     padding: 0 4%;
-    margin: 18% 0 0 0;
+    margin: 14% 0 4% 0;
     z-index: 100;
 }
 .container .content-play img{
@@ -293,11 +293,11 @@ gradient{
     align-items: center;
 }
 .container .content-play .buttons a{
-    padding: 10px 30px;
+    padding: 10px 20px;
     background-color: #ffffff;
     color: #000000;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 600;
     border-radius: 5px;
     margin: 3% 0;
     display: flex;
@@ -308,11 +308,11 @@ gradient{
     transition: 0.3s;
 }
 .container .content-play .buttons a:nth-child(2){
-    padding: 10px 30px;
-    background-color: #666666;
+    padding: 10px 20px;
+    background-color: #6d6d6eb3;
     color: #ffffff;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 600;
     border-radius: 3px;
     margin: 3% 10px;
     display: flex;
@@ -326,19 +326,19 @@ gradient{
     background-color: #c9c9c9;
 }
 .container .content-play .buttons a:nth-child(2):hover{
-    background-color: #525252;
+    background-color: #6d6d6e70;
 }
 .container .content-play .buttons a img{
-    width: 18px;
-    height: 18px;
+    width: 22px;
+    height: 22px;
     margin: 0 10px;
     transition: 0.3s;
 }
 .container .content-play .cont-btns{
     position: absolute;
-    top: 28%;
+    top: 35%;
     right: 0;
-    bottom: -28%;
+    bottom: -35%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -349,7 +349,7 @@ gradient{
     bottom: 0;
     padding: 10px;
     width: 100px;
-    height: 40px;
+    height: 35px;
     background-color: #222222c5;
     font-size: 16px;
     color: #ffffff;
@@ -454,6 +454,9 @@ gradient{
     align-items: center;
     justify-content: space-between;
 }
+.container-slider .wrapper:hover .owl-dots{
+    display: flex;
+}
 .container-slider .wrapper .btn-carousel button{
     display: none;
     position: absolute;
@@ -501,9 +504,6 @@ gradient{
     height: 100%;
     object-fit: cover;
     border-radius: 5px;
-}
-.container-slider .wrapper .carousel:hover .owl-dots{
-    display: flex;
 }
 .container-slider .wrapper:hover .next{
     display: flex;
