@@ -34,10 +34,11 @@ $(".carousel").owlCarousel({
     loop: true,
     items: 7,
     freeMode: true,
-    loopAdditionalSlides: 5,
-    speed: 500,
-    interval : 70000,
+    loopAdditionalSlides: 6,
+    speed: 8000,
+    interval : 100,
     nav: true,
+    navText: ["Prev","Next"],
     responsive:{
       0:{
         items:1,
@@ -52,21 +53,23 @@ $(".carousel").owlCarousel({
         nav: false
       }
     },
-    breakpoints: {
-        640: {
-            slidesPerView: 5,
-            slidesPerGroup: 5,
-            freeMode: false
-        }
-    }
   });
 
 var btnNext = document.querySelector('.next');
 var btnPrev = document.querySelector('.prev');
+const carousel = document.querySelector('.carousel');
 
-document.querySelector('.next').addEventListener('click', function(){
-    $('.carousel').trigger('next.owl.carousel');
+btnNext.addEventListener('click', function(){
+  $('.carousel').trigger('next.owl.carousel' , [500]);
 });
-document.querySelector('.prev').addEventListener('click', function(){
-    $('.carousel').trigger('prev.owl.carousel');
+btnPrev.addEventListener('click', function(){
+  $('.carousel').trigger('prev.owl.carousel' , [500]);
+});
+
+const search = document.getElementById('search');
+
+search.addEventListener('click', function(e){
+  e.preventDefault();
+  var containerSearch = document.querySelector('.container-search');
+  containerSearch.classList.toggle('active');
 });

@@ -13,7 +13,7 @@ body{
     position: fixed;
     padding: 18px 4%;
     width: 100%;
-    background: linear-gradient(180deg, #000000c4 20%, #ffffff00 100%);
+    background: linear-gradient(180deg, #00000091 20%, #00000000 100%);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -60,10 +60,49 @@ body{
     align-items: center;
     justify-content: center;
 }
-.menu .content-right .search{
-    width: 1.2em;
+.menu .content-right .container-search{
+    position: relative;
+    width: 32px;
+    height: 30px;
+    background-color: #00000000;
+    border: 1px solid #ffffff00;
+    display: flex;
+    align-items: center;
+    transition: 0.5s ease;
+    overflow: hidden;
+}
+.menu .content-right .container-search.active{
+    position: relative;
+    width: 200px;
+    height: 30px;
+    background-color: #000000a6;
+    border: 1px solid #ffffff;
+    display: flex;
+    align-items: center;
+}
+.menu .content-right .container-search .search{
+    width: 20px;
+    height: 20px;
     margin: 0 10px;
     cursor: pointer;
+}
+.menu .content-right .container-search .input-searc{
+    width: 100%;
+    height: 100%;
+    background-color: #000000a6;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 300;
+}
+.menu .content-right .container-search .input-searc:focus{
+    background-color: #000000a6;
+}
+::-webkit-input-placeholder{
+    color: #b6b6b6;
+    font-size: 14px;
+    font-weight: 300;
 }
 .menu .content-right a{
     text-decoration: none;
@@ -137,8 +176,8 @@ body{
     position: absolute;
     right: -5px;
     top: -6px;
-    width: 16px;
-    height: 16px;
+    width: 18px;
+    height: 18px;
     border-radius: 10px;
     background: #e50914;
     display: flex;
@@ -147,6 +186,7 @@ body{
 }
 .menu .content-right .notific .circle-notific span{
     font-size: 10px;
+    font-weight: 600;
     color: #ffffff;
 }
 .menu .content-right .user{
@@ -503,7 +543,7 @@ gradient{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 .container-slider .wrapper:hover .next{
     display: flex;
